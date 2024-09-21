@@ -1,0 +1,31 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.select-From {
+  width: 90% !important;
+}
+.select-To {
+  width: 90% !important;
+}
+.converter {
+  width: 90% !important;
+}
+
+.DivImg {
+  left: 9px;
+  top: 4px;
+}
+.DivImgTo {
+  bottom: 34px;
+  left: 10px;
+}
+
+.placInput::placeholder {
+  color: white;
+  opacity: 50%;
+}

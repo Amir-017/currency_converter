@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="bootstrap.min.css" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="webfonts/all.min.css" />
+    <title>Document</title>
+  </head>
+  <body class="overflow-y-hidden">
+    <h1 class="bg-dark p-3 Currency-Converter text-center text-light">
+      Currency-Converter
+    </h1>
+
+    <div
+      class="w-100 vh-100 d-flex justify-content-center align-items-center bg-dark"
+    >
+      <div class="p-5 w-50 h-50 bg-success bg-opacity-10 rounded-4">
+        <!-- p -->
+
+        <p class="text-opacity-50 text-light fw-bolder text-start">Amount</p>
+        <!-- /p -->
+        <!-- input -->
+        <div class="input-group flex-nowrap">
+          <input
+            type="text"
+            placeholder=" 1 By Default"
+            class="form-control bg-transparent text-light fw-bolder placInput"
+          />
+          <span class="input-group-text bg-transparent" id="addon-wrapping"
+            ><button class="btn btn-dark btn_replace">Replace</button></span
+          >
+        </div>
+        <!-- /input -->
+        <!-- select & btn -->
+
+        <div class="container ms-4">
+          <div class="DivImg position-relative"></div>
+
+          <div class="select">
+            <select
+              class="form-select mt-4 bg-dark text-light select-From ps-5"
+            ></select>
+            <select
+              class="form-control mt-3 bg-dark text-light select-To ps-5"
+            ></select>
+          </div>
+          <!-- to -->
+          <div class="DivImgTo position-relative"></div>
+          <!-- /to -->
+          <div class="d-grid gap-2 mt-3">
+            <button class="btn btn-dark converter" type="button">
+              Convert
+            </button>
+            <h2 class="myH1 text-center text-light me-5"></h2>
+          </div>
+        </div>
+        <!-- /select & btn -->
+      </div>
+    </div>
+
+    <!--  -->
+    <script src="bootstrap.bundle.min.js"></script>
+    <script src="obj.js"></script>
+    <script src="java.js"></script>
+  </body>
+</html>
